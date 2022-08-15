@@ -24,7 +24,7 @@ namespace Persistence.Contexts
         {
             //if (!optionsBuilder.IsConfigured)
             //    base.OnConfiguring(
-            //        optionsBuilder.UseSqlServer(Configuration.GetConnectionString("SomeConnectionString")));
+            //        optionsBuilder.UseSqlServer(Configuration.GetConnectionString("RentACarCampConnectionString")));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
